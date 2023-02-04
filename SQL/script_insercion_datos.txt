@@ -1,0 +1,142 @@
+-- Datos Jugador
+
+INSERT INTO jugador VALUES (1, null, 'Pablo Restrepo', 0, 1000000, 'Delantero', 0, 'Habilitado', TO_DATE('11/FEB/2022' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (2, null, 'Juan Rodriguez', 5, 3000000, 'Medio campo', 60, 'Habilitado', TO_DATE('20/MAR/2022' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (3, null, 'Carlos Pérez', 15, 4500000, 'Defensa', 20, 'Habilitado', TO_DATE('15/JAN/2022' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (4, null, 'Diego Martinez', 10, 8000000, 'Arquero', 80, 'Habilitado', TO_DATE('01/JUL/2022' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (5, null, 'Andres Rivera', 0, 2000000, 'Delantero', 40, 'Habilitado', TO_DATE('01/SEP/2022' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (6, null, 'Gabriel Ortiz', 8, 5000000, 'Medio campo', 75, 'Habilitado', TO_DATE('01/OCT/2022' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (7, null, 'Luis García', 12, 7000000, 'Defensa', 90, 'Habilitado', TO_DATE('01/NOV/2022' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (8, null, 'David Lopez', 18, 6000000, 'Arquero', 70, 'Habilitado', TO_DATE('01/DIC/2022' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (9, null, 'Jorge Sánchez', 3, 8000000, 'Medio campo', 85, 'Habilitado', TO_DATE('01/ENE/2023' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (10, null, 'Pablo Castro', 14, 6000000, 'Defensa', 95, 'Habilitado', TO_DATE('01/FEB/2021' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (11, null, 'Sebastian Gomez', 8, 10000000, 'Arquero', 25, 'Habilitado',TO_DATE('01/MAR/2021' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (12, null, 'Martin Hernandez', 11, 7000000, 'Delantero', 30, 'Habilitado', TO_DATE('01/ABR/2021' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (13, null, 'Juan David', 6, 5000000, 'Medio campo', 45, 'Habilitado', TO_DATE('01/MAY/2021' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (14, null, 'Juan Carlos', 9, 7000000, 'Defensa', 60, 'Habilitado', TO_DATE('01/JUN/2021' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (15, null, 'Felipe Rodriguez', 12, 8000000, 'Arquero', 75, 'Habilitado', TO_DATE('01/JUL/2021' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (16, null, 'Juan Santiago', 15, 5000000, 'Delantero', 80, 'Habilitado', TO_DATE('01/AGO/2021' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (17, null, 'José Rivera', 2, 7000000, 'Medio campo', 15, 'Habilitado', TO_DATE('01/SEP/2021' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (18, null, 'Manuel Lopez', 4, 8000000, 'Defensa', 25, 'Habilitado', TO_DATE('01/OCT/2020' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (19, null, 'Carlos Gomez', 6, 6000000, 'Arquero', 35, 'Habilitado', TO_DATE('01/NOV/2020' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (20, null, 'Francisco Perez', 8, 5000000, 'Delantero', 45, 'Habilitado', TO_DATE('01/DIC/2020' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (21, null, 'Mauricio Ortiz', 10, 7000000, 'Medio campo', 55, 'Habilitado', TO_DATE('01/ENE/2020' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (22, null, 'Luis Castro', 12, 8000000, 'Defensa', 65, 'Habilitado', TO_DATE('01/FEB/2020' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (23, null, 'Juan Aguilar', 14, 6000000, 'Arquero', 75, 'Habilitado', TO_DATE('01/MAR/2020' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (24, null, 'Santiago Rodriguez', 16, 5000000, 'Delantero', 85, 'Habilitado', TO_DATE('01/ABR/2020' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (25, null, 'Andres Ortiz', 18, 7000000, 'Medio campo', 95, 'Habilitado', TO_DATE('01/MAY/2020' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (26, null, 'Pedro Castro', 20, 8000000, 'Defensa', 5, 'Habilitado', TO_DATE('01/JUN/2020' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (27, null, 'Juan Gomez', 2, 6000000, 'Arquero', 15, 'Habilitado', TO_DATE('01/JUL/2020' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (28, null, 'Sebastian Hernandez', 4, 5000000, 'Delantero', 25, 'Habilitado', TO_DATE('01/AGO/2020' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (29, null, 'Gustavo Martinez', 6, 7000000, 'Medio campo', 35, 'Habilitado', TO_DATE('01/SEP/2020' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (30, null, 'Ricardo Rodriguez', 8, 8000000, 'Defensa', 45, 'Habilitado', TO_DATE('01/OCT/2020' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (31, null, 'Eduardo Gomez', 10, 6000000, 'Arquero', 55, 'Habilitado', TO_DATE('01/NOV/2021' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (32, null, 'Juan Carlos', 12, 5000000, 'Delantero', 65, 'Habilitado', TO_DATE('01/DIC/2021' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (33, null, 'Rafael Ortiz', 14, 7000000, 'Medio campo', 35, 'Habilitado', TO_DATE('01/SEP/2021' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (34, null, 'Andres Torres', 16, 8000000, 'Defensa', 75, 'Habilitado', TO_DATE('01/ENE/2010' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (35, null, 'Diego Garcia', 18, 6000000, 'Arquero', 85, 'Habilitado', TO_DATE('01/FEB/2011' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (36, null, 'Carlos Mendez', 20, 5000000, 'Delantero', 95, 'Habilitado', TO_DATE('01/MAR/2015' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (37, null, 'Juan Perez', 2, 7000000, 'Medio campo', 5, 'Habilitado', TO_DATE('01/ABR/2015' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (38, null, 'Luis Gomez', 4, 8000000, 'Defensa', 15, 'Habilitado', TO_DATE('01/MAY/2015' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (39, null, 'Mario Fernandez', 6, 6000000, 'Arquero', 25, 'Habilitado', TO_DATE('01/JUN/2015' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (40, null, 'Enrique Rodriguez', 8, 5000000, 'Delantero', 35, 'Habilitado', TO_DATE('01/JUL/2015' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (41, null, 'Juan Ortiz', 10, 7000000, 'Medio campo', 45, 'Habilitado', TO_DATE('01/AGO/2018' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (42, null, 'Pedro Gomez', 12, 8000000, 'Defensa', 55, 'Habilitado', TO_DATE('01/SEP/2018' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (43, null, 'Alejandro Rodriguez', 14, 6000000, 'Arquero', 65, 'Habilitado', TO_DATE('01/OCT/2018' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (44, null, 'Juan Carlos Hernandez', 16, 5000000,'Delantero', 75, 'Habilitado', TO_DATE('01/NOV/2015' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (45, null, 'Santiago Torres', 18, 7000000, 'Medio campo', 85, 'Habilitado', TO_DATE('01/DIC/2016' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (46, null, 'Eduardo Garcia', 20, 8000000, 'Defensa', 95, 'Habilitado', TO_DATE('01/ENE/2016' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (47, null, 'Miguel Mendez', 2, 6000000, 'Arquero', 5, 'Habilitado', TO_DATE('01/FEB/2016' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (48, null, 'Jorge Perez', 4, 5000000, 'Delantero', 15, 'Habilitado', TO_DATE('01/MAR/2016' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (49, null, 'David Gomez', 6, 7000000, 'Medio campo', 25, 'Habilitado', TO_DATE('01/ABR/2016', 'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (50, null, 'Carlos Rodriguez', 8, 9000000, 'Defensa', 35, 'Habilitado', TO_DATE('01/MAY/2016','DD/MM/YYYY'));
+INSERT INTO jugador VALUES (51, null, 'Juan Hernandez', 10, 10000000, 'Arquero', 45, 'Habilitado', TO_DATE('01/JUN/2016' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (52, null, 'Luis Martinez', 12, 11000000, 'Delantero', 55, 'Habilitado', TO_DATE('01/JUL/2016' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (53, null, 'Francisco Jimenez', 14, 12000000, 'Medio campo', 65, 'Habilitado', TO_DATE('01/AGO/2016' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (54, null, 'Diego Ortiz', 16, 13000000, 'Defensa', 75, 'Habilitado', TO_DATE('01/SEP/2016' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (55, null, 'Andres Gomez', 18, 14000000, 'Arquero', 85, 'Habilitado', TO_DATE('01/OCT/2016' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (56, null, 'Alejandro Rodriguez', 20, 15000000, 'Delantero', 95, 'Habilitado', TO_DATE('01/NOV/2016' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (57, null, 'Sebastian Hernandez', 2, 16000000, 'Medio campo', 5, 'Habilitado', TO_DATE('01/DIC/2016' ,'DD/MM/YYYY'));
+INSERT INTO jugador VALUES (58, null, 'Julian Ortiz', 4, 17000000, 'Defensa', 15, 'Habilitado', TO_DATE('01/ENE/2017' ,'DD/MM/YYYY'));
+
+--Datos Equipos
+
+INSERT INTO equipo VALUES (1, 'Real Madrid', 'Club', 5);
+INSERT INTO equipo VALUES (2, 'Barcelona', 'Club', 10);
+INSERT INTO equipo VALUES (3, 'Manchester United', 'Club', 15);
+INSERT INTO equipo VALUES (4, 'Paris Saint-Germain', 'Club', 12);
+INSERT INTO equipo VALUES (5, 'Bayern Munich', 'Club', 18);
+INSERT INTO equipo VALUES (6, 'Chelsea', 'Club', 14);
+INSERT INTO equipo VALUES (7, 'Juventus', 'Club', 8);
+INSERT INTO equipo VALUES (8, 'Liverpool', 'Club', 9);
+INSERT INTO equipo VALUES (9, 'Manchester City', 'Club', 16);
+INSERT INTO equipo VALUES (10, 'Milan', 'Club', 7);
+INSERT INTO equipo VALUES (11, 'Roma', 'Club', 11);
+INSERT INTO equipo VALUES (12, 'Tottenham Hotspur', 'Club', 13);
+INSERT INTO equipo VALUES (13, 'New York City', 'Ciudad', 6);
+INSERT INTO equipo VALUES (14, 'Los Angeles', 'Ciudad', 4);
+INSERT INTO equipo VALUES (15, 'Tokyo', 'Ciudad', 3);
+INSERT INTO equipo VALUES (16, 'São Paulo', 'Ciudad', 2);
+
+--Datos Ubicaciones
+
+INSERT INTO ubicacion VALUES (1, 'Cr 10 No. 72-33', 'Bogota');
+INSERT INTO ubicacion VALUES (2, 'Cr 15 No. 62-57', 'Medellin');
+INSERT INTO ubicacion VALUES (3, 'Av 19 No. 45-21', 'Cali');
+INSERT INTO ubicacion VALUES (4, 'Cr 12 No. 60-40', 'Barranquilla');
+INSERT INTO ubicacion VALUES (5, 'Av 15 No. 80-20', 'Cartagena');
+INSERT INTO ubicacion VALUES (6, 'Cr 7 No. 50-15', 'Pereira');
+INSERT INTO ubicacion VALUES (7, 'Av 10 No. 65-30', 'Santa Marta');
+INSERT INTO ubicacion VALUES (8, 'Cr 5 No. 40-12', 'Manizales');
+INSERT INTO ubicacion VALUES (9, 'Av 8 No. 55-25', 'Neiva');
+INSERT INTO ubicacion VALUES (10, 'Cr 3 No. 30-8', 'Armenia');
+INSERT INTO ubicacion VALUES (11, 'Av 6 No. 45-18', 'Cucuta');
+INSERT INTO ubicacion VALUES (12, 'Cr 2 No. 20-5', 'Ibague');
+INSERT INTO ubicacion VALUES (13, 'Av 4 No. 35-12', 'Valledupar');
+INSERT INTO ubicacion VALUES (14, 'Cr 1 No. 10-3', 'Sincelejo');
+INSERT INTO ubicacion VALUES (15, 'Av 2 No. 25-9', 'Monteria');
+INSERT INTO ubicacion VALUES (16, 'Cr 8 No. 60-20', 'Bucaramanga');
+
+--Datos Canchas
+
+INSERT INTO cancha VALUES (1, 1, 'Camp Nou');
+INSERT INTO cancha VALUES (2, 2, 'Santiago Bernabeu');
+INSERT INTO cancha VALUES (3, 3, 'La Bombonera');
+INSERT INTO cancha VALUES (4, 4, 'Maracaná');
+INSERT INTO cancha VALUES (5, 5, 'Old Trafford');
+INSERT INTO cancha VALUES (6, 6, 'San Siro');
+INSERT INTO cancha VALUES (7, 7, 'Allianz Arena');
+INSERT INTO cancha VALUES (8, 8, 'Signal Iduna Park');
+INSERT INTO cancha VALUES (9, 9, 'Wembley Stadium');
+INSERT INTO cancha VALUES (10, 10, 'Etihad Stadium');
+INSERT INTO cancha VALUES (11, 11, 'Anfield');
+INSERT INTO cancha VALUES (12, 12, 'Parc des Princes');
+INSERT INTO cancha VALUES (13, 13, 'Johan Cruyff Arena');
+INSERT INTO cancha VALUES (14, 14, 'King Fahd International Stadium');
+INSERT INTO cancha VALUES (15, 15, 'Azteca Stadium');
+INSERT INTO cancha VALUES (16, 16, 'Estadio do Maracaná');
+
+--Datos Tarjetas
+
+INSERT INTO TARJETA VALUES (1, 'Roja');
+INSERT INTO TARJETA VALUES (2, 'Amarilla');
+
+--Datos Torneos
+
+INSERT INTO torneo VALUES (1, 'La Liga');
+INSERT INTO torneo VALUES (2, 'La Champions');
+
+--Datos TarjetasJugador
+
+INSERT INTO tarjetajugador VALUES (1, 1, 11);
+INSERT INTO tarjetajugador VALUES (1, 1, 11);
+INSERT INTO tarjetajugador VALUES (1, 1, 11);
+INSERT INTO tarjetajugador VALUES (1, 1, 11);
+INSERT INTO tarjetajugador VALUES (1, 1, 11);
+INSERT INTO tarjetajugador VALUES (1, 1, 11);
+INSERT INTO tarjetajugador VALUES (1, 1, 11);
+INSERT INTO tarjetajugador VALUES (1, 1, 11);
+INSERT INTO tarjetajugador VALUES (2, 2, 11);
+INSERT INTO tarjetajugador VALUES (2, 1, 11);
+INSERT INTO tarjetajugador VALUES (2, 1, 11);
+INSERT INTO tarjetajugador VALUES (2, 1, 11);
