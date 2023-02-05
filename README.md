@@ -34,7 +34,7 @@ git clone https://github.com/pablo736/AppGestionFutbol.git
 
 4. Ejecute la aplicación
 
-# Capturas del proyecto en ejecucion
+# Capturas del proyecto en ejecución
 
 ![image](https://user-images.githubusercontent.com/67757313/216800360-37582aa9-d6dd-4c40-9534-7547d15c0a25.png)
 ![image](https://user-images.githubusercontent.com/67757313/216800367-091cad52-829a-4d28-99e3-89be9279e3d8.png)
