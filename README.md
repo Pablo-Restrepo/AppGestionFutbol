@@ -13,7 +13,7 @@ Este es un proyecto para crear una aplicación de gestión de partidos y torneos
 
 # Tecnologías utilizadas
 * Lenguaje de programación: C#
-* Framework: NET. Framework 4.7.2
+* Framework: .NET Framework 4.7.2
 * Base de datos: Oracle SQL
 
 # Requisitos previos
