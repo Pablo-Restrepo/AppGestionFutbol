@@ -48,7 +48,7 @@ git clone https://github.com/pablo736/AppGestionFutbol.git
 
 # Colaboradores
 
-* Pablo José Restrepo Ruiz
+* Pablo Restrepo
 * Braian Rey Castillo
 
 # Licencia
